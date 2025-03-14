@@ -69,7 +69,7 @@ const CameraComponent = ({ onClose, onCapture }) => {
       <div className="mt-4 flex space-x-4">
         <button
           onClick={capturePhoto}
-          className="p-3 bg-cyan-400 text-white font-bold rounded-md hover:bg-green-600"
+          className="p-3 bg-green-500 text-white font-bold rounded-md hover:bg-green-600"
         >
           📸 Capture
         </button>
@@ -78,9 +78,9 @@ const CameraComponent = ({ onClose, onCapture }) => {
             stopCamera();
             onClose();
           }}
-          className="p-3 bg-red-400 text-white font-bold rounded-md hover:bg-red-600"
+          className="p-3 bg-red-500 text-white font-bold rounded-md hover:bg-red-600"
         >
-          Close
+          ❌ Close
         </button>
       </div>
     </div>
